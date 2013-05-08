@@ -9,6 +9,7 @@ int stringcompare (string s1, string s2);
 int main (int argc, char * argv[])
 	{
 	printf("%d\n", stringcompare ("aa", "a"));
+	printf("%d\n", stringcompare ("abc", "abbbe"));
 	return 0 ;
 	}
  
