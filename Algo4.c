@@ -16,7 +16,7 @@ int stringcompare (string s1, string s2)
 	{
 	if ((* s1) == '\0' && (* s2) != '\0') return -1;
 	if ((* s1) == '\0' && (* s2) == '\0') return 0;
-	if ((* s1) != '\0' && (* s2) == '\0') return 1;
+	if ((* s1) != '\0' && (* s2) == '\0') return 1;//manque
 	int c = (int) *(s1) - (int) *(s2) ;
 	if (c) return c ;
 	else return stringcompare (s1 + 1 , s2 + 1);
